@@ -4,7 +4,7 @@
       "Bjoern Hoehrmann <bjoern@hoehrmann.de>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "ExtUtils::MakeMaker version 6.84, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -19,6 +19,28 @@
          "inc"
       ]
    },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Algorithm::ConstructDFA" : "0",
+            "Config" : "0",
+            "Data::AutoBimap" : "0",
+            "Graph::Directed" : "0",
+            "Graph::RandomPath" : "0",
+            "List::MoreUtils" : "0",
+            "List::UtilsBy" : "0",
+            "Memoize" : "0",
+            "Storable" : "0",
+            "Test::More" : "0",
+            "perl" : "5.012"
+         }
+      }
+   },
    "release_status" : "stable",
    "resources" : {
       "repository" : {
@@ -27,5 +49,5 @@
          "web" : "https://github.com/hoehrmann/Algorithm-ConstructDFA-XS"
       }
    },
-   "version" : "0.03"
+   "version" : "0.09"
 }
