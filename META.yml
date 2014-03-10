@@ -29,4 +29,4 @@ requires:
   perl: 5.012
 resources:
   repository: https://github.com/hoehrmann/Algorithm-ConstructDFA-XS.git
-version: 0.17
+version: 0.23
